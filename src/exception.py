@@ -1,5 +1,5 @@
 import sys   # sys is used to get the current exception information
-import logging
+from src.logger import logging
 
 
 def error_message_details(error,error_details:sys):
